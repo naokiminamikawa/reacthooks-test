@@ -1,8 +1,6 @@
-import { useState } from 'react'
-import { Counter } from './hooks/State'
+import { Counter } from "./components/Counter";
 
 function App() {
-
   return (
     <>
       <div>
@@ -10,7 +8,7 @@ function App() {
         <Counter />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
